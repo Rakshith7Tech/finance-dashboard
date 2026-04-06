@@ -1,3 +1,6 @@
+Live Demo
+https://kaleidoscopic-malabi-08191b.netlify.app/
+
 Finance Dashboard
 
 A modern and responsive Finance Dashboard built using React + TailwindCSS + Recharts.  
