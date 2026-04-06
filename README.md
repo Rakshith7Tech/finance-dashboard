@@ -1,16 +1,69 @@
-# React + Vite
+Finance Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Finance Dashboard built using React + TailwindCSS + Recharts.  
+This application allows users to track income and expenses with role-based access and interactive data visualization.
 
-Currently, two official plugins are available:
+Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Role-Based Access (RBAC)
+- Viewer
+  - View transactions, charts, and insights
+- Admin
+  - Add new transactions
+  - Delete transactions
+  - Reset all data
 
-## React Compiler
+Dashboard Functionalities
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Balance Overview
+  - Total Balance
+  - Total Income
+  - Total Expenses
 
-## Expanding the ESLint configuration
+Charts
+  - Line chart for financial trend
+  - Pie chart for spending breakdown
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Transactions Table
+  - Search by category
+  - Filter by income/expense
+  - Add/Delete transactions (Admin only)
+
+Insights
+  - Top spending category
+  - Total expenses
+  - Smart summary message
+
+UI Enhancements
+
+- Dark Mode (with persistence)
+- Fully responsive (mobile, tablet, desktop)
+- Smooth hover and transition effects
+
+Data Persistence
+
+- Transactions stored in localStorage
+- Theme preference stored in localStorage
+
+Tech Stack
+
+- Frontend: React (Vite)
+- Styling: Tailwind CSS
+- Charts: Recharts
+- State Management: React Hooks (useState, useEffect)
+
+Setup Instructions:
+
+1. Clone the repository
+
+git clone https://github.com/Rakshith7Tech/finance-dashboard.git
+cd fin-dash
+
+2. Install dependencies
+npm install
+
+3. Run the project
+npm run dev
+
+4. Open in browser
+http://localhost:5173
